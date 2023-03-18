@@ -1,3 +1,21 @@
+<div id="navbar">
+  <div class="logo" style="font-weight: bold; font-size: 30px; font-family: sans-serif; display: flex; justify-content: end; align-items: center;">Logo</div>
+  <a href="index.html">Home</a>
+  <a href="#news">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">login</a>
+</div>
+<script>
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  </script>
 <link rel="stylesheet" href="contact.css">
 <div class="container">
     <div style="text-align:center">
