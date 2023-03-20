@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+   
+    <body>
+        <div id="navbar">
+          <img class="logo" src="image/logostar.png" alt="" style="width: 250px;  "> 
+            <a href="index.html">Home</a>
+            <a href="#news">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">login</a>
+          </div>
+          <script>
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-50px";
+              }
+            }
+            </script>
+        <div class="container">
+          <h1>Login</h1>
+            <form>
+                <label>Username</label><br>
+                <input type="text" id="username"><br>
+                <label>Password</label><br>
+                <input type="password" id="password"><br>
+                <button input type="button" value="Login" onClick="Login()">Log in</button>
+            </form>
+        </div>     
+        <script src="login.js"></script>
+    </body>
+</html>
