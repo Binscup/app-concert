@@ -248,3 +248,13 @@ video{
   background-color: #ddd;
   color: black;
 }
+.logo {
+  margin-right: 50%;
+  margin-top: 3%;
+}
+.navbar .toggle_btn{
+  color: #000000;
+  font-size: 1.5rem;
+  cursor: pointer
+}
+

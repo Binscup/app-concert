@@ -93,4 +93,7 @@ body{
     background-color: #ddd;
     color: black;
   }
-  
+  .logo {
+    margin-right: 50%;
+    margin-top: 3%;
+  }
